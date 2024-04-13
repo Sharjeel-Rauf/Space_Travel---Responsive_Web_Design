@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Responsiveness - Space Travel</title>
+        <!-- character encoding -->
+        <meta charset="UTF-8">
+
+        <!-- for responsive design to work on mobile too -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- a small icon displayed in the browser tab -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+            rel="stylesheet">
+
+        <!-- our custom CSS  -->
+        <link href = "style.css" rel = "stylesheet">
+    </head>
+    <body class = "home">
+            <!-- Header section -->
+            <header class = "primary-header flex">
+                <!-- Logo -->
+                <div>
+                    <img src = "./assets/shared/logo.svg" alt = "space-tourism-logo" class = "logo">
+                </div>
+                <!-- Navigation menu -->
+                <nav>
+                    <ul class = "primary-navigation underline-indicators flex">
+                        <!-- Home link -->
+                        <li aria-selected = "true"><a class = "ff-sans-cond uppercase text-white letter-spacing-2" href = "index.html"><span>00</span>Home</a></li>
+                        <!-- Destination link -->
+                        <li aria-selected = "false"><a class = "ff-sans-cond uppercase text-white letter-spacing-2" href = "#"><span>01</span>Destination</a></li>
+                        <!-- Crew link -->
+                        <li aria-selected = "false"><a class = "ff-sans-cond uppercase text-white letter-spacing-2" href = "#"><span>02</span>Crew</a></li>
+                        <!-- Technology link -->
+                        <li aria-selected = "false"><a class = "ff-sans-cond uppercase text-white letter-spacing-2" href = "#"><span>03</span>Technology</a></li>
+                    </ul> 
+                </nav>
+            </header>
+
+            <!-- Main content section -->
+            <div class = "grid-container grid-container--home">
+                <!-- Content block -->
+                <div>
+                    <h1 class="fs-500 text-light ff-sans-cond uppercase letter-spacing-1">So, you want to travel to
+                    <span class="d-block fs-900 ff-serif uppercase text-white">Space</span></h1>
+
+                    <p>Let’s face it; if you want to go to space, you might as well genuinely go to 
+                    outer space and not hover kind of on the edge of it. Well sit back, and relax 
+                    because we’ll give you a truly out of this world experience! </p>
+                </div>
+                <!-- Button block -->
+                <div>
+                    <a href = "#" class = "large-button uppercase ff-serif text-dark bg-white">Explore</a>
+                </div>
+            </div>
+     
+    </body>
+</html>
